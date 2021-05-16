@@ -1,5 +1,5 @@
-import 'package:course_flutter/my_circleavatar.dart';
 import 'package:course_flutter/my_floating_action_button.dart';
+import 'package:course_flutter/my_snackbar.dart';
 import 'package:flutter/material.dart';
 
 class MyApp extends StatelessWidget {
@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
         home: Scaffold(
             appBar: AppBar(),
             drawer: Drawer(),
-            floatingActionButton: MyFloatingActionButton(),
-            body: MyCircleAvatar()));
+            // floatingActionButton: MyFloatingActionButton(),
+            body: MySnackBar()));
   }
 }
