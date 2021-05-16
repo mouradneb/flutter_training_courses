@@ -1,6 +1,5 @@
-import 'package:course_flutter/my_checkbox.dart';
-import 'package:course_flutter/my_checkboxlist.dart';
 import 'package:course_flutter/my_floating_action_button.dart';
+import 'package:course_flutter/my_radio.dart';
 import 'package:flutter/material.dart';
 
 class MyApp extends StatelessWidget {
@@ -12,6 +11,6 @@ class MyApp extends StatelessWidget {
             appBar: AppBar(),
             drawer: Drawer(),
             floatingActionButton: MyFloatingActionButton(),
-            body: MyCheckBoxList()));
+            body: MyRadio()));
   }
 }
