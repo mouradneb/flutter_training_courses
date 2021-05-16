@@ -1,5 +1,4 @@
-import 'package:course_flutter/my_floating_action_button.dart';
-import 'package:course_flutter/my_snackbar.dart';
+import 'package:course_flutter/my_alertdialog.dart';
 import 'package:flutter/material.dart';
 
 class MyApp extends StatelessWidget {
@@ -11,6 +10,6 @@ class MyApp extends StatelessWidget {
             appBar: AppBar(),
             drawer: Drawer(),
             // floatingActionButton: MyFloatingActionButton(),
-            body: MySnackBar()));
+            body: MyAlertDialog()));
   }
 }
