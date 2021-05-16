@@ -1,4 +1,4 @@
-import 'package:course_flutter/my_alertdialog.dart';
+import 'package:course_flutter/my_listview.dart';
 import 'package:flutter/material.dart';
 
 class MyApp extends StatelessWidget {
@@ -10,6 +10,6 @@ class MyApp extends StatelessWidget {
             appBar: AppBar(),
             drawer: Drawer(),
             // floatingActionButton: MyFloatingActionButton(),
-            body: MyAlertDialog()));
+            body: MyListView()));
   }
 }
